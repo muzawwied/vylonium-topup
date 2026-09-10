@@ -3,9 +3,8 @@
    Vanilla CSS · zero dependency · tema terang/gelap
    ============================================================ */
 
---tile:#f6f7fa;
-
 :root{
+  --tile:#f6f7fa;
   --bg:#f6f7fa;
   --surface:#ffffff;
   --surface-2:#eef0f5;
