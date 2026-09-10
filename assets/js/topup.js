@@ -138,7 +138,7 @@
 
   /* --- buat pesanan --- */
   function submitOrder() {
-    var code = "GS-" + Date.now().toString(36).toUpperCase() + Math.floor(Math.random() * 90 + 10);
+    var code = "VY-" + Date.now().toString(36).toUpperCase() + Math.floor(Math.random() * 90 + 10);
     var order = {
       code: code, gameSlug: state.game.slug, gameName: state.game.name,
       denomLabel: state.denom.label, price: state.denom.price,
@@ -147,9 +147,9 @@
     };
     try {
       var orders = [];
-      try { orders = JSON.parse(localStorage.getItem("gasin_orders")) || []; } catch (e) {}
+      try { orders = JSON.parse(localStorage.getItem("vylonium_orders")) || []; } catch (e) {}
       orders.unshift(order);
-      localStorage.setItem("gasin_orders", JSON.stringify(orders));
+      localStorage.setItem("vylonium_orders", JSON.stringify(orders));
     } catch (e) {}
     panel.innerHTML =
       '<div class="succ">' +

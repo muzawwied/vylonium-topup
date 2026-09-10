@@ -64,7 +64,7 @@ window.GAMES = [
   {
     slug: "valorant", name: "Valorant", publisher: "Riot Games",
     genre: "FPS", logo: "assets/img/logos/valorant.svg", popular: false,
-    idLabel: "Riot ID", idHint: "Format: Nama#Tag (contoh: Gasin#1234).",
+    idLabel: "Riot ID", idHint: "Format: Nama#Tag (contoh: Vylonium#1234).",
     denoms: [
       { label: "475 VP", price: 50000, note: "Paket hemat" },
       { label: "1000 VP", price: 100000, note: "Paket standar" },

@@ -1,5 +1,5 @@
 /* ============================================================
-   Gasin — Top Up Game Instan · Desain sistem
+   Vylonium — Top Up Game Instan · Desain sistem
    Vanilla CSS · zero dependency · tema terang/gelap
    ============================================================ */
 
@@ -28,7 +28,7 @@
   --radius:14px;
   --radius-lg:22px;
   --container:1180px;
-  --head-font:"Segoe UI",system-ui,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",Arial,sans-serif;
+  --head-font:"Plus Jakarta Sans",system-ui,-apple-system,BlinkMacSystemFont,Roboto,"Segoe UI",Arial,sans-serif;
   --ease:cubic-bezier(.22,.9,.3,1);
 }
 
@@ -139,7 +139,12 @@ body.no-js #preloader{display:none}
 .nav{display:flex;align-items:center;gap:28px;height:74px;min-width:0}
 .logo{display:inline-flex;align-items:center;gap:10px;font-weight:800;font-size:1.3rem;letter-spacing:-.035em;flex-shrink:0}
 .logo svg{width:27px;height:27px;flex-shrink:0}
-.logo b{font-weight:800}
+ .logo b{font-weight:800}
+.brand{
+  font-weight:800;letter-spacing:-.035em;
+  background:linear-gradient(120deg,#5865F2 15%,#8B5CF6 85%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
 .nav-links{display:flex;align-items:center;gap:30px;margin-inline:auto;min-width:0}
 .nav-links a{font-size:.93rem;font-weight:600;color:var(--muted);position:relative;padding:6px 2px;white-space:nowrap;transition:color .25s}
 .nav-links a::after{content:"";position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--grad);border-radius:2px;transition:width .3s var(--ease)}

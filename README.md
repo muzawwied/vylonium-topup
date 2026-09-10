@@ -1,7 +1,7 @@
-# Gasin — Top Up Game Instan
+# Vylonium — Top Up Game Instan
 
 Situs top up game multi-halaman, 100% vanilla (HTML/CSS/JS, tanpa dependency).
-Deploy di GitHub Pages: https://muzawwied.github.io/gasin-topup/
+Deploy di GitHub Pages: https://muzawwied.github.io/vylonium-topup/
 
 ## Fitur
 - 6 halaman: Beranda, Games, Top Up (alur 4 langkah), Status, Bantuan, Kontak + 404

@@ -5,7 +5,7 @@
   var histWrap = document.getElementById("histWrap");
 
   function orders() {
-    try { return JSON.parse(localStorage.getItem("gasin_orders")) || []; }
+    try { return JSON.parse(localStorage.getItem("vylonium_orders")) || []; }
     catch (e) { return []; }
   }
 

@@ -1,4 +1,4 @@
-/* Gasin — perilaku bersama (tema, preloader, reveal, counter, tilt, typing, akordeon, toast) */
+/* Vylonium — perilaku bersama (tema, preloader, reveal, counter, tilt, typing, akordeon, toast) */
 (function () {
   "use strict";
   var d = document, root = d.documentElement;
@@ -32,7 +32,7 @@
   if (tBtn) tBtn.addEventListener("click", function () {
     var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
     root.setAttribute("data-theme", next);
-    try { localStorage.setItem("gasin-theme", next); } catch (e) {}
+    try { localStorage.setItem("vylonium-theme", next); } catch (e) {}
   });
 
   /* ---------- Header + progress ---------- */
