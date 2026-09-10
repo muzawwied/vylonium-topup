@@ -117,7 +117,7 @@ h3{font-size:1.18rem;letter-spacing:-.02em}
 }
 #preloader.done{transform:translateY(-100%);opacity:0;pointer-events:none}
 .pre-logo{display:flex;align-items:center;gap:10px;font-size:1.9rem;font-weight:800;letter-spacing:-.04em}
-.pre-logo svg{width:34px;height:34px}
+.pre-logo svg{width:40px;height:30px}
 .pre-track{width:min(230px,60vw);height:3px;border-radius:99px;background:var(--line);overflow:hidden}
 .pre-bar{height:100%;width:0%;background:var(--grad);border-radius:99px;transition:width .2s ease}
 .pre-pct{font-size:.78rem;font-weight:600;color:var(--soft);font-variant-numeric:tabular-nums}
@@ -138,7 +138,7 @@ body.no-js #preloader{display:none}
 }
 .nav{display:flex;align-items:center;gap:28px;height:74px;min-width:0}
 .logo{display:inline-flex;align-items:center;gap:10px;font-weight:800;font-size:1.3rem;letter-spacing:-.035em;flex-shrink:0}
-.logo svg{width:32px;height:28px;flex-shrink:0}
+.logo svg{width:36px;height:27px;flex-shrink:0}
  .logo b{font-weight:800}
 .brand{
   font-weight:800;letter-spacing:-.035em;
