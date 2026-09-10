@@ -178,6 +178,8 @@ body.no-js #preloader{display:none}
 #mobileMenu a{padding:13px 4px;font-weight:700;font-size:1.02rem;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;min-width:0}
 #mobileMenu a span{color:var(--soft);font-weight:600;font-size:.82rem;flex-shrink:0;margin-left:12px}
 @media(max-width:900px){
+  .nav{justify-content:space-between;gap:12px}
+  .nav-right{gap:10px}
   .nav-links,.nav-cta{display:none}
   .burger{display:flex}
 }
