@@ -261,8 +261,7 @@ body.no-js #preloader{display:none}
 }
 .game-row:hover{background:var(--surface-2);padding-left:18px}
 .game-row .thumb{width:88px;height:88px;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);background:var(--tile);display:grid;place-items:center}
-.game-row .thumb img{width:74%;height:74%;object-fit:contain}
-.game-row .thumb img{width:100%;height:100%;object-fit:cover;transition:transform .5s var(--ease)}
+.game-row .thumb img{width:76%;height:76%;object-fit:contain;transition:transform .5s var(--ease)}
 .game-row:hover .thumb img{transform:scale(1.06)}
 .game-row .info{min-width:0}
 .game-row .info h3{font-size:1.08rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
